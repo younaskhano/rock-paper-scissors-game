@@ -1,0 +1,35 @@
+ **********Rock, Paper, Scissors Game**********
+
+ This repository contains a Python implementation of the classic Rock, Paper, Scissors game. Play against the computer and see if you can reach the winning score!
+
+ **********Features:**********
+ User-friendly interface for choosing rock (r), paper (p), or scissors (s).
+ Point system: Earn points for winning rounds and ties.
+ Play until you reach the maximum score (configurable) or choose to quit.
+ How to Play:
+
+ **********Clone or download the repository.**********
+ Run the Python script (python rock_paper_scissors.py).
+ Follow the prompts to choose your move.
+ The computer will also make a random choice.
+ The winner of each round and the current score will be displayed.
+ You can choose to play again after each round.
+
+ **********Example Gameplay:**********
+ Comp turn: Rock(r), Paper(p) or Scissors(s)?
+ Your turn: Rock(r), Paper(p) or Scissors(s)? p
+ Computer chose s
+ You win!
+
+ Comp turn: Rock(r), Paper(p) or Scissors(s)?
+ Your turn: Rock(r), Paper(p) or Scissors(s)? r
+ Computer chose r
+ Tie!
+
+ Final Scores: Player - 2, Computer - 1
+ Thanks for playing!
+ Technical Details:
+
+ The code uses the random module to generate the computer's choice.
+ A function determine_winner checks the user's and computer's choices to determine the winner or tie.
+ Points are awarded based on the round outcome and stored in separate variables for the player and computer.
